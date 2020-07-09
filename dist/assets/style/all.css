@@ -11967,10 +11967,6 @@ a.text-darkTxt:hover, a.text-darkTxt:focus {
   }
 }
 
-* {
-  outline: 1px solid red;
-}
-
 .ff-title {
   font-family: 'Raleway', sans-serif;
 }
