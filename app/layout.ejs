@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+        <title><%- title %></title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
+        <link rel="stylesheet" href="./assets/style/all.css" />
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.css" />
+        <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"
+    </head>
+
+    <body>
+        <div class="container d-flex justify-content-center">
+            <div class="mainNav d-flex justify-content-between align-items-center px-3 shadow-sm">
+                <h1 class="mainNav__logo">
+                    <a href="#"><img src="./assets/images/mainNav-logo.svg" alt="" /></a>
+                </h1>
+                <ul class="d-lg-flex d-none">
+                    <li><a class="mainNav__btn btn rounded-pill mr-lg-4 mr-md-1" href="#">兼職易介紹</a></li>
+                    <li><a class="mainNav__btn btn rounded-pill mr-lg-4 mr-md-1" href="#">兼職易特色</a></li>
+                    <li><a class="mainNav__btn btn rounded-pill mr-lg-4 mr-md-1" href="#">微信小程序</a></li>
+                    <li>
+                        <a class="mainNav__downLoad btn rounded-pill" href="#"
+                            >立即下載 <img class="ml-5" src="./assets/images/mainNav-downLoad.svg" alt=""
+                        /></a>
+                    </li>
+                </ul>
+                <a
+                    href="#"
+                    class="hamBtn btn d-lg-none d-flex flex-column justify-content-center align-items-end rounded"
+                >
+                    <div class="hamBtn__line mb-o5"></div>
+                    <div class="hamBtn__line mb-o5"></div>
+                    <div class="hamBtn__line"></div>
+                </a>
+            </div>
+        </div>
+        <div class="hamMenu">
+            <ul>
+                <li class="hamMenu__items">
+                    <a class="btn text-dark font-weight-bold text-center" href="#">兼職易介紹</a>
+                </li>
+                <li class="hamMenu__items">
+                    <a class="btn text-dark font-weight-bold text-center" href="#">兼職易特色</a>
+                </li>
+                <li class="hamMenu__items">
+                    <a class="btn text-dark font-weight-bold text-center" href="#">兼職易小程序</a>
+                </li>
+                <li class="hamMenu__items mb-8">
+                    <a class="btn text-dark font-weight-bold text-center" href="#">立即下載</a>
+                </li>
+                <li>
+                    <p class="text-dark font-weight-bold">
+                        追蹤我們
+                        <span>
+                            <a target="blank" class="btn" href="https://www.facebook.com/tgafastjob/?locale=zh_TW"
+                                ><img class="footer__followUs__fb" src="./assets/images/followUs-fb-black.svg" alt=""
+                            /></a>
+                        </span>
+                    </p>
+                </li>
+            </ul>
+        </div>
+
+        <%- contents %>
+
+        <footer class="footer bg-dark text-white py-6">
+            <div class="container">
+                <div class="d-flex justify-content-between  flex-md-row flex-column">
+                    <ul class="mb-md-0 mb-4">
+                        <li class="mb-2"><p>聚賢亞洲有限公司</p></li>
+                        <li class="mb-1"><p>服務時間 : 星期一至日 上午10點至晚上7點</p></li>
+                        <li class="mb-1 text-underLine">
+                            <a class="text-white" href="tel:+853 2878 3990">+853 2878 3990</a>
+                        </li>
+                        <li class="text-underLine">
+                            <a class="text-white" href="mailto:roster@talentgroup.asia">roster@talentgroup.asia</a>
+                        </li>
+                    </ul>
+                    <div class="d-flex flex-column justify-content-between align-items-md-end align-items-center">
+                        <p>
+                            追蹤我們
+                            <span>
+                                <a target="blank" class="btn" href="https://www.facebook.com/tgafastjob/?locale=zh_TW"
+                                    ><img class="footer__followUs__fb" src="./assets/images/followUs-fb.svg" alt=""
+                                /></a>
+                            </span>
+                        </p>
+                        <p>Copyright © TalentGroup Aisa All Rights Reserved.</p>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="./assets/js/vendors.js"></script>
+
+        <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+        <script src="./assets/js/all.js"></script>
+    </body>
+</html>

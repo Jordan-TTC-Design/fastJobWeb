@@ -1,0 +1,79 @@
+@mixin fw-sm {
+    font-weight: $fw-sm;
+}
+@mixin fw-rg {
+    font-weight: $fw-rg;
+}
+@mixin fw-md {
+    font-weight: $fw-md;
+}
+@mixin fw-bd {
+    font-weight: $fw-bg;
+}
+@mixin fw-bk {
+    font-weight: $fw-bk;
+}
+// RWD螢幕
+$nb-media: 1280px;
+$pad-media: 992px;
+$phone-media: 767px;
+
+//電腦
+@mixin nb-width() {
+    @media all and (max-width: $nb-media) {
+        @content;
+    }
+}
+
+//平板
+@mixin pad-width() {
+    @media all and (max-width: $pad-media) {
+        @content;
+    }
+}
+
+//手機
+@mixin phone-width() {
+    @media all and (max-width: $phone-media) {
+        @content;
+    }
+}
+
+// $nb-media-bs: 992px;
+// $pad-media-bs: 768px;
+// $phone-media-bs: 767px;
+// //Bootstraps作法
+// //bs4電腦
+// @mixin nb-width() {
+//     @media all and (min-width: $nb-media-bs) {
+//         @content;
+//     }
+// }
+
+// //bs4平板
+// @mixin pad-width() {
+//     @media all and (min-width: $pad-media-bs) {
+//         @content;
+//     }
+// }
+
+// //bs4手機
+// @mixin phone-width() {
+//     @media all and (max-width: $phone-media-bs) {
+//         @content;
+//     }
+// }
+// // Extra small devices (portrait phones, less than 576px)
+// @media (max-width: 575.98px) { ... }
+
+// // Small devices (landscape phones, 576px and up)
+// @media (min-width: 576px) and (max-width: 767.98px) { ... }
+
+// // Medium devices (tablets, 768px and up)
+// @media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+// // Large devices (desktops, 992px and up)
+// @media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+// // Extra large devices (large desktops, 1200px and up)
+// @media (min-width: 1200px) { ... }

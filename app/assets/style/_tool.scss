@@ -1,0 +1,290 @@
+.d-block {
+    display: block;
+}
+
+// 背景
+.bg-cover {
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+.bg-cover-size {
+    width: 100%;
+    height: 100%;
+    flex-shrink: 1;
+}
+@include phone-width {
+    .bg-ph-bgColor {
+        background-color: $bgColor !important;
+    }
+}
+//border
+
+.box-border {
+    border: 1px solid #000;
+}
+.border-bottom-white {
+    border-bottom: 1px solid $white;
+}
+.border-none {
+    border: none !important;
+    @include pad-width {
+        .border-pd-none {
+            border: none !important;
+        }
+    }
+
+    @include phone-width {
+        .border-ph-none {
+            border: none !important;
+        }
+    }
+}
+@include phone-width {
+    .border-ph {
+        border: 1px solid #dee2e6 !important;
+    }
+}
+//手機版圓角歸0
+@include phone-width {
+    .rounded-ph-0 {
+        border-radius: 0 !important;
+    }
+}
+
+
+// 字體
+.title-sb {
+    font-size: $title-sb;
+}
+.title-lg {
+    font-size: $title-lg;
+}
+.title-md {
+    font-size: $title-md;
+}
+.title-sm {
+    font-size: $title-sm;
+}
+.font-lg {
+    font-size: $font-lg;
+}
+.font-md {
+    font-size: $font-md;
+}
+.text-rg {
+    font-size: 16px;
+}
+.text-sm {
+    font-size: 14px;
+}
+.text-xs {
+    font-size: 12px;
+}
+.text-xxs {
+    font-size: 10px;
+}
+@include pad-width {
+    .title-pd-sb {
+        font-size: $title-sb;
+    }
+    .title-pd-lg {
+        font-size: $title-lg;
+    }
+    .title-pd-md {
+        font-size: $title-md;
+    }
+    .title-pd-sm {
+        font-size: $title-sm;
+    }
+    .font-pd-lg {
+        font-size: $font-lg;
+    }
+    .font-pd-md {
+        font-size: $font-md;
+    }
+    .text-pd-rg {
+        font-size: 16px;
+    }
+    .text-pd-sm {
+        font-size: 14px;
+    }
+    .text-pd-xs {
+        font-size: 12px;
+    }
+    .text-pd-xxs {
+        font-size: 10px;
+    }
+}
+@include phone-width {
+    .title-ph-sb {
+        font-size: $title-sb;
+    }
+    .title-ph-lg {
+        font-size: $title-lg;
+    }
+    .title-ph-md {
+        font-size: $title-md;
+    }
+    .title-ph-sm {
+        font-size: $title-sm;
+    }
+    .font-ph-lg {
+        font-size: $font-lg;
+    }
+    .font-ph-md {
+        font-size: $font-md;
+    }
+    .text-ph-rg {
+        font-size: 16px;
+    }
+    .text-ph-sm {
+        font-size: 14px;
+    }
+    .text-ph-xs {
+        font-size: 12px;
+    }
+    .text-ph-xxs {
+        font-size: 10px;
+    }
+}
+.upperCase {
+    text-transform: uppercase;
+}
+.tac {
+    text-align: center;
+}
+.text-underLine{
+    text-decoration:underline;
+}
+// 字重
+.fw-bk {
+    font-weight: $fw-bk;
+}
+.fw-bd {
+    font-weight: $fw-bd;
+}
+.fw-md {
+    font-weight: $fw-md;
+}
+.fw-rg {
+    font-weight: $fw-rg;
+}
+.fw-sm {
+    font-weight: $fw-sm;
+}
+
+//其他工具
+.mouse-pointer {
+    cursor: pointer;
+}
+
+//按鈕工具
+.btn--center {
+    height: 36px;
+    display: flex;
+    align-items: center;
+}
+.btn--center--lg {
+    height: 44px;
+    display: flex;
+    align-items: center;
+}
+
+// 間隔工具
+.m-0-auto {
+    margin: 0 auto;
+}
+//手機版padiing歸0
+@include phone-width {
+    .pr-ph-0 {
+        padding-right: 0 !important;
+    }
+    .pl-ph-0 {
+        padding-left: 0 !important;
+    }
+}
+@include phone-width {
+    .container-ph-fluid {
+        padding: 0;
+    }
+}
+
+
+// 格線工具
+.line {
+    position: relative;
+    &::after {
+        content: '';
+        border-bottom: 1px solid $gray-300;
+        position: absolute;
+        bottom: 0;
+        right: 0;
+        left: 0;
+    }
+}
+
+//隱藏或顯示
+.visible {
+    visibility: visible;
+}
+.invisible {
+    visibility: hidden;
+}
+@include pad-width {
+    .visible-pd {
+        visibility: visible;
+    }
+    .invisible-pd {
+        visibility: hidden;
+    }
+}
+@include phone-width {
+    .visible-ph {
+        visibility: visible;
+    }
+    .invisible-ph {
+        visibility: hidden;
+    }
+}
+
+//overflow-滾輪工具
+.overflow-scroll {
+    overflow: auto;
+}
+@include pad-width {
+    .overflow-pd-scroll {
+        overflow: auto;
+    }
+}
+@include phone-width {
+    .overflow-ph-scroll {
+        overflow: auto;
+    }
+}
+
+// poisiton定位
+@include pad-width {
+    .position-pd-static {
+        position: static;
+    }
+}
+@include phone-width {
+    .position-ph-static {
+        position: static;
+    }
+}
+
+//grid，沒有間隔
+.no-gutters {
+    & > .col,
+    & > [class*='col-'] {
+        padding-right: 0;
+        padding-left: 0;
+    }
+}
+
+//調亮
+.brightness {
+    filter: brightness(100%);
+}

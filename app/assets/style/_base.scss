@@ -1,0 +1,178 @@
+// * {
+//     outline: 1px solid red;
+// }
+
+// 字型設定：
+
+// Title : Raleway
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap');
+
+// Text：Noto Sans CJK TC
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap');
+
+.ff-title {
+    font-family: 'Raleway', sans-serif;
+}
+.ff-txt {
+    font-family: 'Noto Sans TC', sans-serif;
+}
+* {
+    font-family: 'Noto Sans TC', sans-serif;
+}
+
+ol,
+ul {
+    list-style: none;
+    padding-inline-start: 0px;
+}
+* {
+    box-sizing: border-box;
+}
+html {
+    font-size: 16px;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+    line-height: 1.2;
+}
+p,
+a,
+li,
+label,
+span,
+* {
+    line-height: 1.5;
+}
+
+img {
+    display: block;
+}
+
+//以下是改bs4效果
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+.h1,
+.h2,
+.h3,
+.h4,
+.h5,
+.h6 {
+    margin-bottom: 0;
+}
+
+a:hover {
+    text-decoration: none;
+}
+p {
+    margin-bottom: 0;
+}
+ol,
+ul {
+    margin-bottom: 0;
+    list-style: none;
+}
+// 共用class--格線
+
+.wrap {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+}
+.wrap-fulid {
+    width: 100%;
+    // margin: 0 auto;
+}
+// .wrap-p {
+//     padding: 96px 0;
+// }
+// @include phone-width {
+//     .container-ph-fulid {
+//         padding: 0;
+//         max-width: 100%;
+//     }
+// }
+// .section-py {
+//     padding: 72px 0;
+//     @include pad-width {
+//         padding: 48px 0;
+//     }
+// }
+// .section__rowH {
+//     min-height: 400px;
+//     @include pad-width {
+//         min-height: auto;
+//     }
+// }
+// .section--H {
+//     min-height: 400px;
+//     @include pad-width {
+//         min-height: auto;
+//         padding: 24px 0;
+//     }
+// }
+// 共用class
+
+// 共用class--客制尺寸
+.h-custom {
+    height: 56px;
+}
+.icon-lg {
+    vertical-align: middle;
+    font-size: 48px;
+}
+.icon-md {
+    vertical-align: middle;
+    font-size: 24px;
+}
+.icon-sm {
+    font-size: 18px;
+}
+
+// 共用class--客制按鈕
+.link-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.btn-custom {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 56px;
+}
+.btn-custom-height {
+    height: 56px;
+}
+.btn-white {
+    background-color: $white;
+}
+
+// 共用class--客制分頁
+.c-pagination {
+    .page-link {
+        color: $secondary;
+        font-size: 24px;
+    }
+    .page-link--active {
+        color: $primary;
+        text-decoration: underline;
+    }
+}
+
+// 共用class--其他
+.bdrs-1 {
+    border-radius: 1rem;
+}
+
+.cardBox {
+    .cardBox__img {
+        width: 100%;
+    }
+}
