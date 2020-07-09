@@ -12930,6 +12930,7 @@ ul {
 @media all and (max-width: 767px) {
   .jobsImgList-container {
     width: 50%;
+    transform: translateY(0%);
   }
 }
 

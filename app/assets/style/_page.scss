@@ -224,7 +224,7 @@
 .section-job {
     position: relative;
     @include phone-width {
-      padding-top: 120px;
+        padding-top: 120px;
     }
     .section-job__hand {
         transform: translateX(5%);
@@ -246,6 +246,7 @@
     transform: translateY(-20%);
     @include phone-width {
         width: 50%;
+        transform: translateY(0%);
     }
 }
 
@@ -300,7 +301,6 @@
     .swiper-slide.swiper-slide-active {
         width: 80% !important;
         margin-left: 10%;
-        // transform: translateX(-30px);
         // margin-right: 50px;
         .jobsImg {
             transform: translateY(0px);
