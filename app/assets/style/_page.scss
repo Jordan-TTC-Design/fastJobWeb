@@ -1,7 +1,10 @@
 .header {
-    height: 700px;
+    height: 800px;
     position: relative;
-    margin-bottom: 150px;
+    // margin-bottom: 150px;
+    padding-top: 120px;
+    padding-bottom: 120px;
+    overflow: hidden;
     .header__txtBox {
         z-index: 99;
     }
@@ -10,12 +13,14 @@
     }
     .headerBg {
         background-image: url(../images/header-bg.svg);
-        // background-color: #fff;
         background-size: cover;
         position: absolute;
         height: 100%;
         width: 100%;
         z-index: 1;
+        @include phone-width {
+            background-position: bottom;
+        }
     }
     .header__scrollBox {
         border: 2px solid $dark;
@@ -35,7 +40,6 @@
             transform: translateX(-50%);
         }
     }
-    
 }
 .header::after {
     content: '';
@@ -48,10 +52,13 @@
     transform: translateY(50%);
     border-top-left-radius: 50%;
     border-top-right-radius: 50%;
+    @include phone-width {
+        width: 120%;
+    }
 }
 .header__imgBox {
     position: absolute;
-    bottom: -50px;
+    bottom: 0;
 
     .header__imgBox__pic {
         width: 100%;
@@ -84,18 +91,18 @@
         border: 4px solid $white;
         border-radius: 16px;
         font-size: 24px;
-        @include pad-width{
+        @include pad-width {
             width: 80%;
         }
-        @include phone-width{
+        @include phone-width {
             width: 90%;
             font-size: 16px;
         }
     }
-    .chatBox__img{
-        img{
+    .chatBox__img {
+        img {
             width: 80px;
-            @include phone-width{
+            @include phone-width {
                 width: 44px;
             }
         }
@@ -112,8 +119,8 @@
     padding: 120px 0;
     width: 80%;
     margin: 0 auto;
-    @include phone-width{
-        .title-md:last-child(){
+    @include phone-width {
+        .title-md:last-child() {
             font-size: 20px;
         }
     }
@@ -150,7 +157,6 @@
         @include phone-width {
             width: 100%;
             height: 400px;
-            
         }
     }
     .arrow::after {
@@ -216,20 +222,21 @@
     }
 }
 .section-job {
-    // height: 800px;
     position: relative;
+    @include phone-width {
+      padding-top: 120px;
+    }
     .section-job__hand {
         transform: translateX(5%);
         @include phone-width {
-            width: 100%;
+            width: 95%;
         }
     }
     .section-job__txtBox {
         margin-top: -200px;
         padding-bottom: 120px;
-        @include pad-width{
-        margin-top: 0px;
-
+        @include pad-width {
+            margin-top: 0px;
         }
     }
 }
@@ -249,7 +256,7 @@
     flex-direction: column;
     margin-top: 120px;
     z-index: 10;
-    padding:4px 16px;
+    padding: 4px 24px;
     background-color: $white;
     .jobsImg {
         width: 100%;
@@ -265,7 +272,7 @@
         transition: all 0.3s;
     }
     @include phone-width {
-        padding:4px 24px;
+        padding: 4px 24px;
     }
 }
 .swiper-slide.swiper-slide-next {
