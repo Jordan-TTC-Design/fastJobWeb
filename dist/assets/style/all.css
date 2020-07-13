@@ -12818,7 +12818,7 @@ ul {
 
 @media all and (max-width: 767px) {
   .section--chat .weChatDownLoad .weChatDownLoad__box {
-    width: 60%;
+    width: 80%;
     height: 240px;
   }
 }
