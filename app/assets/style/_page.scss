@@ -5,7 +5,9 @@
     padding-bottom: 120px;
     position: relative;
     overflow: hidden;
-
+    @include phone-width {
+        padding-top: 60px;
+    }
     //header banner中的內容物
     .header__txtBox {
         z-index: 99;
@@ -177,7 +179,7 @@
 //聊天對話區塊
 .section--chat {
     padding-top: 120px;
-    @include phone-width{
+    @include phone-width {
         padding-top: 56px;
     }
     .chatBox {
@@ -220,9 +222,9 @@
         .weChatDownLoad__boxList {
             margin-left: -50px;
             margin-right: -50px;
-           @include phone-width{
-               margin: 0;
-           }
+            @include phone-width {
+                margin: 0;
+            }
         }
         .weChatDownLoad__box {
             width: calc(33.333% - 35px);
@@ -253,7 +255,6 @@
             @include phone-width {
                 width: 60%;
                 height: 240px;
-                
             }
         }
         .arrow::after {
