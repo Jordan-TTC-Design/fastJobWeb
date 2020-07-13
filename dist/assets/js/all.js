@@ -2,7 +2,7 @@
 
 $(document).ready(function () {
   $('.hamBtn').click(function () {
-    $('.hamMenu').toggleClass('active');
+    $('.hamMenu').toggleClass('active'), $('.hamBtn').toggleClass('active');
   });
   var swiper = new Swiper('.swiper-container', {
     slidesPerView: 1,

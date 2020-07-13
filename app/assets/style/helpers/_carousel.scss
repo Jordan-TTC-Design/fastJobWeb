@@ -1,0 +1,35 @@
+
+.swiper-slide.swiper-slide-next {
+    .jobsImg {
+        transform: translateY(0px);
+        transition: all 1.5s;
+    }
+    p {
+        visibility: visible;
+        transition: all 1.5s;
+    }
+    @include phone-width {
+        .jobsImg {
+            transform: translateY(24px);
+            transition: all 0.3s;
+        }
+        p {
+            visibility: hidden;
+            transition: all 0.3s;
+        }
+    }
+}
+@include phone-width {
+    .swiper-slide.swiper-slide-active {
+        width: 80% !important;
+        margin-left: 10%;
+        .jobsImg {
+            transform: translateY(0px);
+            transition: all 1.5s;
+        }
+        p {
+            visibility: visible;
+            transition: all 1.5s;
+        }
+    }
+}

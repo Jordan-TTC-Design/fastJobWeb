@@ -5,9 +5,7 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@300;400;500;600;700;800;900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@100;300;400;500;700;900&display=swap");
-@import url("https://fonts.googleapis.com/icon?family=Material+Icons");
 :root {
   --blue: #007bff;
   --indigo: #6610f2;
@@ -11967,10 +11965,6 @@ a.text-darkTxt:hover, a.text-darkTxt:focus {
   }
 }
 
-.ff-title {
-  font-family: 'Raleway', sans-serif;
-}
-
 .ff-txt {
   font-family: 'Noto Sans TC', sans-serif;
 }
@@ -12042,55 +12036,6 @@ ul {
 
 .wrap-fulid {
   width: 100%;
-}
-
-.h-custom {
-  height: 56px;
-}
-
-.icon-lg {
-  vertical-align: middle;
-  font-size: 48px;
-}
-
-.icon-md {
-  vertical-align: middle;
-  font-size: 24px;
-}
-
-.icon-sm {
-  font-size: 18px;
-}
-
-.link-btn {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.btn-custom {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 56px;
-}
-
-.btn-custom-height {
-  height: 56px;
-}
-
-.btn-white {
-  background-color: #fff;
-}
-
-.c-pagination .page-link {
-  color: #646464;
-  font-size: 24px;
-}
-
-.c-pagination .page-link--active {
-  color: #FAC24A;
-  text-decoration: underline;
 }
 
 .bdrs-1 {
@@ -12410,82 +12355,6 @@ ul {
           filter: brightness(100%);
 }
 
-.bg-hotel {
-  background-image: url("https://images.unsplash.com/photo-1534600913328-441f6abb4e2f?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80");
-}
-
-.bg-hotelAqua {
-  background-image: url("https://images.unsplash.com/photo-1569335468888-1d3e4a5a3595?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80");
-}
-
-.bg-kawasakiInn {
-  background-image: url("https://images.unsplash.com/photo-1564631028227-cd9886207fc3?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1525&q=80");
-}
-
-.bg-weeklyParadise {
-  background-image: url("https://images.unsplash.com/photo-1506126279646-a697353d3166?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
-}
-
-.bg-beastHotel {
-  background-image: url("https://images.unsplash.com/photo-1527030280862-64139fba04ca?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1506&q=80");
-}
-
-.bg-osaka {
-  background-image: url("https://images.unsplash.com/photo-1537153960513-344d9f2e8216?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
-}
-
-.bg-kyoto {
-  background-image: url("https://images.unsplash.com/photo-1558862107-d49ef2a04d72?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
-}
-
-.bg-reykjavík {
-  background-image: url("https://images.unsplash.com/photo-1504829857797-ddff29c27927?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
-}
-
-.bg-paris {
-  background-image: url("https://images.unsplash.com/photo-1449265614232-03dfc33163a0?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
-}
-
-.bg-roma {
-  background-image: url("https://images.unsplash.com/photo-1529154036614-a60975f5c760?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1955&q=80");
-}
-
-.bg-bangkok {
-  background-image: url("https://images.unsplash.com/photo-1582468546235-9bf31e5bc4a1?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1001&q=80");
-}
-
-.bg-romeDome {
-  background-image: url("https://images.unsplash.com/photo-1509024644558-2f56ce76c490?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
-}
-
-.bg-thailand {
-  background-image: url("https://images.unsplash.com/photo-1558225818-388ab5bcd45d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=934&q=80");
-}
-
-.bg-lordOfRing {
-  background-image: url("https://images.unsplash.com/photo-1519872436884-4a50eb5a62db?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=975&q=80");
-}
-
-.bg-rachadaHotelImg1 {
-  background-image: url("https://images.unsplash.com/photo-1560747571-e9b3c7e7868c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=700&q=80");
-}
-
-.bg-login {
-  background-image: url("https://images.unsplash.com/photo-1559321623-f0c2b0e82d3d?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=634&q=80");
-}
-
-.bg-user {
-  background-image: url("https://images.unsplash.com/photo-1487309078313-fad80c3ec1e5?ixlib=rb-1.2.1&auto=format&fit=crop&w=975&q=80");
-}
-
-.bg-rachadaHotel {
-  background-image: url("https://images.unsplash.com/photo-1560747571-e9b3c7e7868c?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1000&q=80");
-}
-
-.bg-wowLifeHotel {
-  background-image: url("https://images.unsplash.com/photo-1584931999791-83ae17b2a4d8?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1950&q=80");
-}
-
 .mainNav {
   height: 80px;
   width: 80%;
@@ -12552,11 +12421,11 @@ ul {
   transition: all 0.6s;
 }
 
-.hamBtn:hover .hamBtn__line:nth-child(2) {
+.hamBtn.active .hamBtn__line:nth-child(2) {
   width: 12px;
 }
 
-.hamBtn:hover .hamBtn__line:nth-child(3) {
+.hamBtn.active .hamBtn__line:nth-child(3) {
   width: 8px;
 }
 
@@ -12604,9 +12473,9 @@ ul {
 
 .header {
   height: 800px;
-  position: relative;
   padding-top: 120px;
   padding-bottom: 120px;
+  position: relative;
   overflow: hidden;
 }
 
@@ -12615,21 +12484,43 @@ ul {
 }
 
 .header .header__imgBox {
+  position: absolute;
+  bottom: 0;
   z-index: 99;
 }
 
-.header .headerBg {
-  background-image: url(../images/header-bg.svg);
-  background-size: cover;
-  position: absolute;
-  height: 100%;
+.header .header__imgBox .header__imgBox__pic {
   width: 100%;
-  z-index: 1;
+}
+
+.header .header__imgBox--boy {
+  left: 50px;
+  width: 30%;
+}
+
+@media all and (max-width: 992px) {
+  .header .header__imgBox--boy {
+    left: -50px;
+    width: 50%;
+  }
+}
+
+.header .header__imgBox--girl {
+  right: 50px;
+  width: 20%;
+}
+
+@media all and (max-width: 992px) {
+  .header .header__imgBox--girl {
+    right: 35px;
+    width: 30%;
+  }
 }
 
 @media all and (max-width: 767px) {
-  .header .headerBg {
-    background-position: bottom;
+  .header .header__imgBox--girl {
+    right: 15px;
+    width: 30%;
   }
 }
 
@@ -12648,9 +12539,78 @@ ul {
   border-radius: 50%;
   background-color: #1D1D1D;
   position: absolute;
-  bottom: 1rem;
-  left: 50px;
+  bottom: 10%;
+  left: 50%;
   transform: translateX(-50%);
+}
+
+@media all and (max-width: 767px) {
+  .header .header__scrollBox {
+    border: 2px solid #1D1D1D;
+    width: 60px;
+    height: 60px;
+    font-size: 12px;
+  }
+  .header .header__scrollBox::after {
+    content: '';
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background-color: #1D1D1D;
+    position: absolute;
+    bottom: 10%;
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+.header .header__scrollBox::after {
+  -webkit-animation-name: scrollAnimal;
+          animation-name: scrollAnimal;
+  -webkit-animation-duration: 2s;
+          animation-duration: 2s;
+  -webkit-animation-iteration-count: infinite;
+          animation-iteration-count: infinite;
+}
+
+@-webkit-keyframes scrollAnimal {
+  0% {
+    bottom: 10%;
+  }
+  50% {
+    bottom: 30%;
+  }
+  100% {
+    bottom: 10%;
+  }
+}
+
+@keyframes scrollAnimal {
+  0% {
+    bottom: 10%;
+  }
+  50% {
+    bottom: 30%;
+  }
+  100% {
+    bottom: 10%;
+  }
+}
+
+.header .headerBg {
+  background-image: url(../images/header-bg.svg);
+  background-size: cover;
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  z-index: 1;
+}
+
+@media all and (max-width: 767px) {
+  .header .headerBg {
+    background-position: 60% 120px;
+    background-repeat: no-repeat;
+  }
 }
 
 .header::after {
@@ -12672,36 +12632,73 @@ ul {
   }
 }
 
-.header__imgBox {
-  position: absolute;
-  bottom: 0;
+.section-job {
+  position: relative;
 }
 
-.header__imgBox .header__imgBox__pic {
-  width: 100%;
+.section-job .section-job__hand {
+  transform: translateX(5%);
 }
 
-.header__imgBox--boy {
-  left: 50px;
-  width: 30%;
-}
-
-@media all and (max-width: 992px) {
-  .header__imgBox--boy {
-    left: -50px;
-    width: 50%;
+@media all and (max-width: 767px) {
+  .section-job .section-job__hand {
+    width: 95%;
   }
 }
 
-.header__imgBox--girl {
-  right: 50px;
-  width: 20%;
+.section-job .section-job__txtBox {
+  margin-top: -200px;
+  padding-bottom: 120px;
 }
 
 @media all and (max-width: 992px) {
-  .header__imgBox--girl {
-    right: 35px;
-    width: 30%;
+  .section-job .section-job__txtBox {
+    margin-top: 120px;
+    padding-bottom: 48px;
+  }
+}
+
+.jobsImgList-container {
+  width: 100%;
+  top: 0%;
+  transform: translateY(-20%);
+}
+
+@media all and (max-width: 767px) {
+  .jobsImgList-container {
+    width: 50%;
+    transform: translateY(0%);
+  }
+}
+
+.jobsImgList-container .jobsImgBox {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 120px;
+  z-index: 10;
+  padding: 4px 24px;
+  background-color: #fff;
+}
+
+.jobsImgList-container .jobsImgBox .jobsImg {
+  width: 100%;
+  transform: translateY(24px);
+  transition: all 0.3s;
+}
+
+.jobsImgList-container .jobsImgBox p {
+  color: #1D1D1D;
+  visibility: hidden;
+  margin-top: 16px;
+  margin-bottom: 16px;
+  transition: all 0.3s;
+}
+
+@media all and (max-width: 767px) {
+  .jobsImgList-container .jobsImgBox {
+    padding: 4px 24px;
   }
 }
 
@@ -12709,8 +12706,10 @@ ul {
   padding-top: 120px;
 }
 
-.section--chat .chatBoxList {
-  margin-bottom: 120px;
+@media all and (max-width: 767px) {
+  .section--chat {
+    padding-top: 56px;
+  }
 }
 
 .section--chat .chatBox {
@@ -12751,24 +12750,33 @@ ul {
   border-bottom-right-radius: 0px;
 }
 
-.weChatDownLoad {
+.section--chat .weChatDownLoad {
   padding: 120px 0;
   width: 80%;
   margin: 0 auto;
 }
 
 @media all and (max-width: 767px) {
-  .weChatDownLoad .title-md:last-child {
+  .section--chat .weChatDownLoad {
+    width: 100%;
+  }
+  .section--chat .weChatDownLoad .title-md:last-child {
     font-size: 20px;
   }
 }
 
-.weChatDownLoad .weChatDownLoad__boxList {
+.section--chat .weChatDownLoad .weChatDownLoad__boxList {
   margin-left: -50px;
   margin-right: -50px;
 }
 
-.weChatDownLoad .weChatDownLoad__box {
+@media all and (max-width: 767px) {
+  .section--chat .weChatDownLoad .weChatDownLoad__boxList {
+    margin: 0;
+  }
+}
+
+.section--chat .weChatDownLoad .weChatDownLoad__box {
   width: calc(33.333% - 35px);
   height: 300px;
   background-color: #fff;
@@ -12781,35 +12789,35 @@ ul {
   position: relative;
 }
 
-.weChatDownLoad .weChatDownLoad__box .box__title {
+.section--chat .weChatDownLoad .weChatDownLoad__box .box__title {
   display: block;
   background-color: #FAC24A;
   padding: 4px 32px;
   border-radius: 1rem;
 }
 
-.weChatDownLoad .weChatDownLoad__box .box__txt {
+.section--chat .weChatDownLoad .weChatDownLoad__box .box__txt {
   color: #8a5c26;
 }
 
-.weChatDownLoad .weChatDownLoad__box img {
+.section--chat .weChatDownLoad .weChatDownLoad__box img {
   width: 100%;
 }
 
 @media all and (max-width: 992px) {
-  .weChatDownLoad .weChatDownLoad__box {
+  .section--chat .weChatDownLoad .weChatDownLoad__box {
     width: calc(33.333% - 25px);
   }
 }
 
 @media all and (max-width: 767px) {
-  .weChatDownLoad .weChatDownLoad__box {
-    width: 100%;
-    height: 400px;
+  .section--chat .weChatDownLoad .weChatDownLoad__box {
+    width: 60%;
+    height: 240px;
   }
 }
 
-.weChatDownLoad .arrow::after {
+.section--chat .weChatDownLoad .arrow::after {
   content: '';
   background: url("../images/arrow.svg") no-repeat;
   background-size: contain;
@@ -12820,45 +12828,45 @@ ul {
 }
 
 @media all and (max-width: 767px) {
-  .weChatDownLoad .arrow::after {
+  .section--chat .weChatDownLoad .arrow::after {
     display: none;
   }
 }
 
-.weChatDownLoad .arrow--right::after {
+.section--chat .weChatDownLoad .arrow--right::after {
   right: -70px;
   bottom: 50%;
   transform: translateY(50%);
 }
 
 @media all and (max-width: 992px) {
-  .weChatDownLoad .arrow--right::after {
+  .section--chat .weChatDownLoad .arrow--right::after {
     width: 50px;
     right: -50px;
   }
 }
 
-.weChatDownLoad .arrow--left::after {
+.section--chat .weChatDownLoad .arrow--left::after {
   left: -70px;
   bottom: calc(50% - 30px);
   transform: rotate(180deg);
 }
 
 @media all and (max-width: 992px) {
-  .weChatDownLoad .arrow--left::after {
+  .section--chat .weChatDownLoad .arrow--left::after {
     width: 50px;
     left: -50px;
   }
 }
 
-.weChatDownLoad .arrow--bottom::after {
+.section--chat .weChatDownLoad .arrow--bottom::after {
   right: calc(50% - 35px);
   bottom: -65px;
   transform: rotate(90deg);
 }
 
 @media all and (max-width: 992px) {
-  .weChatDownLoad .arrow--bottom::after {
+  .section--chat .weChatDownLoad .arrow--bottom::after {
     width: 50px;
     bottom: -55px;
     right: calc(50% - 20px);
@@ -12888,81 +12896,6 @@ ul {
   margin-left: 8px;
   flex-direction: column;
   align-items: flex-start;
-}
-
-.section-job {
-  position: relative;
-}
-
-@media all and (max-width: 767px) {
-  .section-job {
-    padding-top: 120px;
-  }
-}
-
-.section-job .section-job__hand {
-  transform: translateX(5%);
-}
-
-@media all and (max-width: 767px) {
-  .section-job .section-job__hand {
-    width: 95%;
-  }
-}
-
-.section-job .section-job__txtBox {
-  margin-top: -200px;
-  padding-bottom: 120px;
-}
-
-@media all and (max-width: 992px) {
-  .section-job .section-job__txtBox {
-    margin-top: 0px;
-  }
-}
-
-.jobsImgList-container {
-  width: 100%;
-  top: 0%;
-  transform: translateY(-20%);
-}
-
-@media all and (max-width: 767px) {
-  .jobsImgList-container {
-    width: 50%;
-    transform: translateY(0%);
-  }
-}
-
-.jobsImgBox {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
-  margin-top: 120px;
-  z-index: 10;
-  padding: 4px 24px;
-  background-color: #fff;
-}
-
-.jobsImgBox .jobsImg {
-  width: 100%;
-  transform: translateY(24px);
-  transition: all 0.3s;
-}
-
-.jobsImgBox p {
-  color: #1D1D1D;
-  visibility: hidden;
-  margin-top: 16px;
-  margin-bottom: 16px;
-  transition: all 0.3s;
-}
-
-@media all and (max-width: 767px) {
-  .jobsImgBox {
-    padding: 4px 24px;
-  }
 }
 
 .swiper-slide.swiper-slide-next .jobsImg {

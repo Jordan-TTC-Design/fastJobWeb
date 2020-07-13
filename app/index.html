@@ -25,7 +25,7 @@ current: index
                 <img class="header__imgBox__pic" src="./assets/images/header-img-girl.svg" alt="" />
             </div>
         </div>
-        <div class="section-job bg-bgColor mb-7">
+        <div id="fastJob-job" class="section-job bg-bgColor mb-7">
             <div class="container d-flex flex-lg-column flex-column-reverse">
                 <div class="d-flex justify-content-center position-relative">
                     <img class="section-job__hand" src="./assets/images/hand.svg" alt="hand" />
@@ -69,7 +69,7 @@ current: index
         </div>
     </div>
 
-    <div class="container">
+    <div id="fastJob-feature" class="container">
         <div class="row mb-6">
             <div class="col-md-6 col-12">
                 <div class="cardBox py-6 px-8 text-center h-100">
@@ -94,21 +94,21 @@ current: index
                 <h3 class="title-md mb-2 font-weight-bold text-center">微信客服咨詢</h3>
                 <p class="mb-7 text-center">客服團隊即時提供有關兼職招聘、出糧、更表、報更等諮詢服務。</p>
                 <div class="chatBoxList d-flex flex-column">
-                    <div class="chatBox chatBox--tga d-flex align-items-center p-2 mb-5 text-white">
+                    <div class="chatBox chatBox--tga d-flex align-items-center p-2 mb-md-5 mb-3 text-white">
                         <div class="chatBox__img mr-3">
                             <img class="" src="./assets/images/chatImg-tga.svg" alt="" />
                         </div>
                         <p class="chatBox__txt font-weight-bold">您好，TGA兼職易為您服務。</p>
                     </div>
                     <div
-                        class="chatBox chatBox--user d-flex flex-row-reverse align-items-center align-self-end p-2 mb-5 text-white"
+                        class="chatBox chatBox--user d-flex flex-row-reverse align-items-center align-self-end p-2 mb-md-5 mb-3 text-white"
                     >
                         <div class="chatBox__img ml-3">
                             <img src="./assets/images/chatIng-user.svg" alt="" />
                         </div>
                         <p class="chatBox__txt font-weight-bold">想請問這週末有班嗎？這週末我有空。</p>
                     </div>
-                    <div class="chatBox chatBox--tga d-flex align-items-center p-2 mb-5 text-white">
+                    <div class="chatBox chatBox--tga d-flex align-items-center p-2 mb-md-5 mb-3 text-white">
                         <div class="chatBox__img mr-3">
                             <img class="" src="./assets/images/chatImg-tga.svg" alt="" />
                         </div>
@@ -117,7 +117,7 @@ current: index
                         </p>
                     </div>
                     <div
-                        class="chatBox chatBox--user d-flex flex-row-reverse align-items-center align-self-end p-2 text-white"
+                        class="chatBox chatBox--user d-flex flex-row-reverse align-items-center align-self-end p-2 mb-md-5 mb-7 text-white"
                     >
                         <div class="chatBox__img ml-3">
                             <img src="./assets/images/chatIng-user.svg" alt="" />
@@ -125,9 +125,11 @@ current: index
                         <p class="chatBox__txt font-weight-bold">已按排更，謝謝。</p>
                     </div>
                 </div>
-                <div class="weChatDownLoad bg-white rounded-pill mb-6">
+                <div id="fastJob-weChat" class="weChatDownLoad bg-white rounded-pill mb-6">
                     <h3 class="title-md font-weight-bold mb-4 text-center">微信小程序</h3>
-                    <ul class="weChatDownLoad__boxList d-flex justify-content-between flex-wrap mb-2 font-weight-bold">
+                    <ul
+                        class="weChatDownLoad__boxList d-flex justify-content-md-between justify-content-center flex-wrap mb-md-2 font-weight-bold"
+                    >
                         <li class="weChatDownLoad__box arrow arrow--right p-2 mb-5">
                             <h5 class="box__title mb-2">步驟 1</h5>
                             <img class="w-30" src="./assets/images/wechat.svg" alt="" />
@@ -145,7 +147,7 @@ current: index
                         </li>
                     </ul>
                     <ul
-                        class="weChatDownLoad__boxList d-flex justify-content-between flex-wrap flex-row-reverse mb-7 font-weight-bold"
+                        class="weChatDownLoad__boxList d-flex justify-content-md-between justify-content-center flex-wrap flex-row-reverse mb-7 font-weight-bold"
                     >
                         <li class="weChatDownLoad__box arrow arrow--left p-2 mb-md-0 mb-5">
                             <h5 class="box__title mb-2">步驟 4</h5>
@@ -167,7 +169,7 @@ current: index
                 </div>
             </div>
         </div>
-        <div class="section-downLoad py-6">
+        <div id="fastJob-download" class="section-downLoad py-6">
             <div class="container">
                 <h3 class="mb-6 font-weight-bold text-center title-md">立即下載</h3>
 
@@ -185,11 +187,21 @@ current: index
                             </div>
                             <ul>
                                 <li class="mb-1">
-                                    <a href="#"><img src="./assets/images/appstore.png" alt="" /></a>
+                                    <a
+                                        target="blank"
+                                        href="https://apps.apple.com/cn/app/tga%E5%85%BC%E8%81%B7%E6%98%93/id1162548621"
+                                        ><img src="./assets/images/appstore.png" alt=""
+                                    /></a>
                                 </li>
                                 <li class="mb-1">
-                                    <a href="#"><img src="./assets/images/googleplay.png" alt="" /></a>
-                                    <a href="#"><img src="./assets/images/android_apk_download.png" alt="" /></a>
+                                    <a
+                                        target="blank"
+                                        href="https://play.google.com/store/apps/details?id=com.TalentGroupAsia.tgacasual&hl=zh_TW"
+                                        ><img src="./assets/images/googleplay.png" alt=""
+                                    /></a>
+                                    <a target="blank" href="#"
+                                        ><img src="./assets/images/android_apk_download.png" alt=""
+                                    /></a>
                                 </li>
                                 <li class="section-downLoad__qrcode">
                                     <img class="mb-1" src="./assets/images/QRCode.png" alt="" />

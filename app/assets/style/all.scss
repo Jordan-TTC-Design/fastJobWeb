@@ -3,18 +3,15 @@
 @import './helpers/variables';
 //預設的bootstrap
 @import 'bootstrap';
-// @import 'swiper';
 //自訂scss（可延用）
 @import 'var';
 @import 'mixin';
 @import 'base';
 @import 'tool';
-@import './helpers/carousel';
 
 //專門放背景圖片
-@import 'img';
-@import url('https://fonts.googleapis.com/icon?family=Material+Icons');
 //自訂scss（共同版面）
 @import 'layout';
 //自訂scss（頁面）
 @import 'page';
+@import './helpers/carousel';
