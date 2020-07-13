@@ -3,6 +3,10 @@ $(document).ready(() => {
         $('.hamMenu').toggleClass('active'),
         $('.hamBtn').toggleClass('active')
     })
+    $('.hamMenu__items').click(function () {
+        $('.hamMenu').toggleClass('active'),
+        $('.hamBtn').toggleClass('active')
+    })
     var swiper = new Swiper('.swiper-container', {
         slidesPerView: 1,
         spaceBetween: 100,
